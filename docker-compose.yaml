@@ -7,3 +7,5 @@ services:
     build: .
     ports:
       - "9100:80"
+    volumes:
+      - .:/var/www/html/videos

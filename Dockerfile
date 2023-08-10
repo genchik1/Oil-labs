@@ -8,6 +8,6 @@ COPY webgl.conf default.conf
 
 WORKDIR /Build
 COPY Build/ .
-RUN mkdir -p ${video_folder}
+RUN mkdir ${video_folder}
 COPY ${video_path} ${video_folder}
 RUN  chmod 755 -R ${video_folder}
