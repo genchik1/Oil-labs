@@ -1,5 +1,5 @@
 ARG video_folder=/var/www/html/videos
-ARG video_path=Build/Oil-Labs-Video.mp4
+ARG video_name=Oil-Labs-Video.mp4
 
 FROM nginx:alpine
 
@@ -9,5 +9,5 @@ COPY webgl.conf default.conf
 WORKDIR /Build
 COPY Build/ .
 # RUN mkdir -p ${video_folder}
-COPY ${video_path} ${video_folder}
+COPY Build/${video_name} ${video_folder}/${video_name}
 # RUN  chmod 755 -R ${video_folder}
