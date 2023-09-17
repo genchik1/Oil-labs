@@ -1,5 +1,5 @@
 # Oil-labs
 
-```file:///Build/Oil-Labs-Video.mp4```
-http://90.156.210.25:9100/videos/Oil-Labs-Video.mp4
-vKJ11Xvh
+Демо: http://90.156.210.25:9100/
+
+![image](https://github.com/genchik1/Oil-labs/assets/25489425/6614ffe9-caa8-45e0-9314-a5326ec230a9)
